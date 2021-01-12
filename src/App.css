@@ -1,0 +1,180 @@
+.fonttitle {
+  font-family: 'Squada One', cursive;
+}
+
+.font-lato {
+  font-family: 'Exo 2', sans-serif;
+  color:#2a1b3d;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left !important;
+}
+
+.head-title {
+  font-family: 'Exo 2', sans-serif;
+  color: #fff;
+  font-size: 4.5rem !important;
+  font-weight: 900 !important;
+}
+.head-sub-title {
+  font-family: 'Exo 2', sans-serif;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left !important;
+}
+
+.head-sub-title:hover span {
+  opacity: 1;
+}
+
+.head-sub-title span {
+  opacity: 0;
+  background: #db3f87;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  animation-delay: 3s;
+}
+
+.brand-logo {
+  font-family: 'Exo 2', sans-serif;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.footer-copy {
+  font-family: 'Lato';
+  color: #272727;
+  font-size: 1rem;
+}
+
+.footbar {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.clr-white {
+  color: white !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Fullwidth {
+  position: relative;
+}
+
+.Fullwidth img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.Fullwidth .carousel-caption h3{
+  color: #272727;
+  font-family: 'DM Mono', monospace;
+}
+
+.topup {
+  position: relative;
+  top: -20vh;
+  margin-bottom: -10vh !important;
+  height: 100%;
+  min-height: calc(100vh - 0vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #2a1b3d 50%, #44318d 50%) !important;
+}
+
+.App .layout-navbar {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0px;
+  background: transparent;
+  z-index: 2;
+}
+
+.Fullwidth::before {
+    content: " ";
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.App .cardshadow {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border: 0px;
+  border-radius: 20px;
+}
+
+.App .cardshadow .foot-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 700;
+}
+
+.App .cardshadow .foot-card span a {
+  padding: 0.3rem 0.7rem;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #2a1b3d;
+}
+
+.App .cardshadow .foot-card span a:hover {
+  border: 0px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
